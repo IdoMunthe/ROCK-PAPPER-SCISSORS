@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.container {
+    text-align: center;
+    margin: 50px auto;
+}
+
+.container * {
+    margin: 10px;
+}
+
+button {
+    opacity: 60%;
+    padding: 10px;
+    border-radius: 70px;
+    border-style:none;
+    transition: all 300ms ease-in;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 100%;
+    font-weight: 500;
+}
